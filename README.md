@@ -7,11 +7,16 @@ Projeto de escola para a disciplina de POS (Programação Orientada a Serviços)
 ## Dependências
 Primeiramente, é necessário utilizar/instalar as dependências do projeto listadas abaixo.
 
+* [PHP](https://www.php.net)
 * [Composer](https://getcomposer.org)
 * [Laravel](https://laravel.com)
 
 ## Definir porta
-Para definir uma porta específica execute o comando `php artisan serve --port=8888`
+Para definir uma porta específica execute o comando `php artisan serve --port`
+> Ex.: 
+```php
+php artisan serve --port=8888
+```
 
 ## Requisições GET
 **Requisições** | **Retorno** | **Descrição**
